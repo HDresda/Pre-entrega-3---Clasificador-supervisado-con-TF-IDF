@@ -1,0 +1,25 @@
+# Notebook 01_pipeline_base.ipynb: red neuronal y entrenamiento con PyTorch.
+torch==2.15.0
+
+# Utilizadas directamente en los notebooks 01, 02 y 03.
+numpy==2.4.4
+scikit-learn==1.8.0
+matplotlib==3.10.9
+
+# Kernel Jupyter para ejecutar los tres notebooks.
+ipykernel==7.2.0
+
+# Lectura, validación y ejecución automatizada de archivos notebook.
+nbformat==5.11.1
+nbclient==0.11.0
+
+# Notebooks 02_corpus_ag_news.ipynb y 03_Clasificador_AG_News.ipynb.
+pandas==3.0.2
+spacy==3.8.18
+ipython==9.13.0
+
+# Dependencia transitiva de scikit-learn, fijada para reproducir el entorno.
+scipy==1.17.1
+
+# Modelo inglés cargado por spaCy en los notebooks 02 y 03.
+en-core-web-sm @ https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.8.0/en_core_web_sm-3.8.0-py3-none-any.whl
